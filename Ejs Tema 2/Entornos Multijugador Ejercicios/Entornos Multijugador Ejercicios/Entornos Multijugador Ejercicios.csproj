@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Entornos_Multijugador_Ejercicios.Ejercicio05</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ejercicio06.cs" />
+    <Compile Include="Ejercicio05.cs" />
     <Compile Include="Ejercicio02.cs" />
     <Compile Include="Ejercicio01.cs" />
     <Compile Include="Program.cs" />

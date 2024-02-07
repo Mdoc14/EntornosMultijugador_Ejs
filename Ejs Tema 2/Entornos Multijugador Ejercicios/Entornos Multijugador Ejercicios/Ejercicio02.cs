@@ -42,7 +42,7 @@ namespace Entornos_Multijugador_Ejercicios
                 //Espera a que el servidor se lo mande actualizado
                 while (!servido) ;
                 //Lo imprime por pantalla
-                Console.WriteLine("4.Recibido por el servidor: " + peticion);
+                Console.WriteLine("4.Recibido por el servidor: " + peticion + "\n");
                 servido = false;
             }
 
