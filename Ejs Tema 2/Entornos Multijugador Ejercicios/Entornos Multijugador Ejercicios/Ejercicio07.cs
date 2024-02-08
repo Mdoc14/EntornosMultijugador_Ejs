@@ -3,19 +3,24 @@ using System.Threading;
 
 namespace Entornos_Multijugador_Ejercicios
 {
-    internal class Ejercicio06
+    internal class Ejercicio07
     {
         const int NUM_PERSONAS = 10;
         const int NUM_ITERACIONES = 10;
         static volatile int visitantesActuales = 0;
+        static volatile String personaRegalo;
         static Mutex cambioVisitantes = new Mutex();
         static void Persona()
         {
             for (int i = 0; i < NUM_ITERACIONES; i++)
             {
-                
+
 
                 cambioVisitantes.WaitOne();
+                if (visitantesActuales == 0) 
+                {
+                    personaRegalo = Thread.CurrentThread.Name;
+                }
                 visitantesActuales++;
                 WriteLine("Hola, somos " + visitantesActuales.ToString());
                 cambioVisitantes.ReleaseMutex();
@@ -23,6 +28,10 @@ namespace Entornos_Multijugador_Ejercicios
                 Museo();
 
                 cambioVisitantes.WaitOne();
+                if (personaRegalo == Thread.CurrentThread.Name)
+                {
+                    personaRegalo = " ";
+                }
                 visitantesActuales--;
                 WriteLine("Adios a los " + visitantesActuales.ToString());
                 cambioVisitantes.ReleaseMutex();
@@ -36,6 +45,14 @@ namespace Entornos_Multijugador_Ejercicios
 
         static void Museo()
         {
+            if (personaRegalo != Thread.CurrentThread.Name) 
+            {
+                WriteLine("No tengo regalo");
+            }
+            else
+            {
+                WriteLine("Tengo regalo");
+            }
             WriteLine("Que bonito");
             WriteLine("Alucinante");
         }

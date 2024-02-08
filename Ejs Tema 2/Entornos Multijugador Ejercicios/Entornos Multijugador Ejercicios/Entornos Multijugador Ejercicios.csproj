@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Entornos_Multijugador_Ejercicios.Ejercicio06</StartupObject>
+    <StartupObject>Entornos_Multijugador_Ejercicios.Ejercicio07</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ejercicio07.cs" />
     <Compile Include="Ejercicio06.cs" />
     <Compile Include="Ejercicio05.cs" />
     <Compile Include="Ejercicio02.cs" />
