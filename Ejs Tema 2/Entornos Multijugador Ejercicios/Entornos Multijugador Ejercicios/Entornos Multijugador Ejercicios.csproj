@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Entornos_Multijugador_Ejercicios.Ejercicio05</StartupObject>
+    <StartupObject>Entornos_Multijugador_Ejercicios.Ejercicio06</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
