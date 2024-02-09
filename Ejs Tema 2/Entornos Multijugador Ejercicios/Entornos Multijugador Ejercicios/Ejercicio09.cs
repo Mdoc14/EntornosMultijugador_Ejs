@@ -3,12 +3,12 @@ using System.Threading;
 
 namespace Entornos_Multijugador_Ejercicios
 {
-    internal class Ejercicio09_apartadoA
+    internal class Ejercicio09
     {
         private const int N_FRAGMENTOS = 25;
         private const int N_HILOS = 10;
         private static volatile int[] fichero = new int[N_FRAGMENTOS];
-        static Random _random = new Random();
+        static Random _random = new Random();       
         static volatile int idx=0;
         static volatile int numHilosActuales=0;
         static Mutex emIdx = new Mutex();
