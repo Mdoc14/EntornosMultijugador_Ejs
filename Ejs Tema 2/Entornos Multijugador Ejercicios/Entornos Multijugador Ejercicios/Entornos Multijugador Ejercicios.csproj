@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ejercicio07_SolucionClase.cs" />
     <Compile Include="Ejercicio07.cs" />
     <Compile Include="Ejercicio06.cs" />
     <Compile Include="Ejercicio05.cs" />
