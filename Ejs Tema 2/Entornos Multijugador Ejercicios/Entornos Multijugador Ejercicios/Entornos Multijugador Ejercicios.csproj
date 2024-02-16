@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Entornos_Multijugador_Ejercicios.Ejercicio09_apartadoA</StartupObject>
+    <StartupObject>Entornos_Multijugador_Ejercicios.Ejercicio15</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,14 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ejercicio09_apartadoB.cs" />
-    <Compile Include="Ejercicio09_apartadoA.cs" />
+    <Compile Include="Ejercicio14.cs" />
     <Compile Include="Ejercicio07_SolucionClase.cs" />
     <Compile Include="Ejercicio07.cs" />
     <Compile Include="Ejercicio06.cs" />
     <Compile Include="Ejercicio05.cs" />
     <Compile Include="Ejercicio02.cs" />
     <Compile Include="Ejercicio01.cs" />
+    <Compile Include="Ejercicio15.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
