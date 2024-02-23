@@ -16,11 +16,12 @@ namespace Entornos_Multijugador_Ejercicios
             EndPoint serverEP = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 9050);
 
             string msg = "";
+            Byte[] data;
 
             while (msg != "EXIT")
             {
                 msg = Console.ReadLine();
-                Byte[] data = Encoding.UTF8.GetBytes(msg);
+                data = Encoding.UTF8.GetBytes(msg);
 
                 clientSocket.SendTo(data, serverEP);
             }
