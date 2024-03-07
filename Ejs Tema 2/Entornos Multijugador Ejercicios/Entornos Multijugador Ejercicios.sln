@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entornos Multijugador Ejercicios", "Entornos Multijugador Ejercicios\Entornos Multijugador Ejercicios.csproj", "{2109823E-CFB4-4C38-A17C-3DF782E3A2EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tema 2", "Entornos Multijugador Ejercicios\Tema 2.csproj", "{2109823E-CFB4-4C38-A17C-3DF782E3A2EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tema 4", "Tema 4\Tema 4.csproj", "{94BEAEC9-E3F8-4675-8C3F-43609993EE6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2109823E-CFB4-4C38-A17C-3DF782E3A2EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2109823E-CFB4-4C38-A17C-3DF782E3A2EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2109823E-CFB4-4C38-A17C-3DF782E3A2EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94BEAEC9-E3F8-4675-8C3F-43609993EE6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BEAEC9-E3F8-4675-8C3F-43609993EE6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BEAEC9-E3F8-4675-8C3F-43609993EE6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BEAEC9-E3F8-4675-8C3F-43609993EE6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
